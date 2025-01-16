@@ -1,0 +1,32 @@
+[
+    {
+        "ID": 0,
+        "Description": "",
+        "Amount": 0
+    },
+    {
+        "ID": 1,
+        "Description": "masuk",
+        "Amount": 20.0
+    },
+    {
+        "ID": 2,
+        "Description": "masuk",
+        "Amount": 20.0
+    },
+    {
+        "ID": 3,
+        "Description": "masuk",
+        "Amount": 20.0
+    },
+    {
+        "ID": 4,
+        "Description": "masuk",
+        "Amount": 20.0
+    },
+    {
+        "ID": 5,
+        "Description": "masuk",
+        "Amount": 20.0
+    }
+]
