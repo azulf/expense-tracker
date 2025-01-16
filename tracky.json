@@ -1,32 +1,32 @@
 [
     {
-        "ID": 0,
-        "Description": "",
-        "Amount": 0
-    },
-    {
-        "ID": 1,
-        "Description": "masuk",
-        "Amount": 20.0
-    },
-    {
-        "ID": 2,
-        "Description": "masuk",
-        "Amount": 20.0
-    },
-    {
-        "ID": 3,
-        "Description": "masuk",
-        "Amount": 20.0
-    },
-    {
-        "ID": 4,
-        "Description": "masuk",
-        "Amount": 20.0
-    },
-    {
         "ID": 5,
-        "Description": "masuk",
-        "Amount": 20.0
+        "Description": "PC",
+        "Amount": 10000000.0,
+        "Date": "01-16-2025, 23:16:55"
+    },
+    {
+        "ID": 6,
+        "Description": "PC",
+        "Amount": 10000000.0,
+        "Date": "01-16-2025, 23:16:57"
+    },
+    {
+        "ID": 7,
+        "Description": "PC",
+        "Amount": 10000000.0,
+        "Date": "01-16-2025, 23:16:58"
+    },
+    {
+        "ID": 8,
+        "Description": "PC",
+        "Amount": 10000000.0,
+        "Date": "01-16-2025, 23:21:04"
+    },
+    {
+        "ID": 9,
+        "Description": "PC",
+        "Amount": 10000000.0,
+        "Date": "01-16-2025, 23:23:30"
     }
 ]
