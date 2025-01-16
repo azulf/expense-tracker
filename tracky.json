@@ -1,32 +1,30 @@
 [
     {
-        "ID": 5,
-        "Description": "PC",
-        "Amount": 10000000.0,
-        "Date": "01-16-2025, 23:16:55"
+        "ID": 13,
+        "Description": "Rokok",
+        "Amount": 25000.0,
+        "Date": "01-17-2025, 02:06:17",
+        "Month": "January"
     },
     {
-        "ID": 6,
-        "Description": "PC",
-        "Amount": 10000000.0,
-        "Date": "01-16-2025, 23:16:57"
+        "ID": 14,
+        "Description": "Rokok",
+        "Amount": 25000.0,
+        "Date": "01-17-2025, 02:13:42",
+        "Month": "January"
     },
     {
-        "ID": 7,
-        "Description": "PC",
-        "Amount": 10000000.0,
-        "Date": "01-16-2025, 23:16:58"
+        "ID": 15,
+        "Description": "Rokok",
+        "Amount": 25000.0,
+        "Date": "01-17-2025, 02:13:43",
+        "Month": "January"
     },
     {
-        "ID": 8,
-        "Description": "PC",
-        "Amount": 10000000.0,
-        "Date": "01-16-2025, 23:21:04"
-    },
-    {
-        "ID": 9,
-        "Description": "PC",
-        "Amount": 10000000.0,
-        "Date": "01-16-2025, 23:23:30"
+        "ID": 16,
+        "Description": "Rokok",
+        "Amount": 25000.0,
+        "Date": "01-17-2025, 02:13:44",
+        "Month": "January"
     }
 ]

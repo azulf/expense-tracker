@@ -9,9 +9,9 @@ data_default = {
     "ID" : 0,
     "Description" : "",
     "Amount" : 0,
-    "Date"  : ""
+    "Date"  : "",
+    "Month" : ""
 }
-
 
 list_default = [
     {
@@ -48,6 +48,7 @@ def Add(idlama, object, amount):
     data_default["Amount"] = amount
     data_default["Description"] = object
     data_default["Date"] = now.strftime(("%m-%d-%Y, %H:%M:%S"))
+    data_default["Month"] = now.strftime("%B")
     data_updated = data_default
     return data_updated
 
@@ -62,9 +63,9 @@ def main():
     parser.add_argument("notes", choices=["add", "list", "delete", "total"], help="The operation to perform.")
     parser.add_argument("--description", "-d",type=str, help= "Object description")
     parser.add_argument("--amount","-a", type=float, help="Amount for object" )
-    # parser.add_argument("--delete","-e", type=str, help = "Delete List")
-    # parser.add_argument("--total", "-t", type=str, help="Total Amount of Expanses")
     parser.add_argument('-x', type=int, help = "Delete this ID" )
+    parser.add_argument('--month','-m', type=str, help = "Insert Month for List")
+    
     args = parser.parse_args()
 
 
@@ -85,13 +86,18 @@ def main():
 
     # List Function
     elif args.notes == "list" :
-        print("ID \t Description \t Amount" )
+        print("ID \t Description \t Amount \t\t Month" )
         list_all_data = ReadFile()
-        try :
-            for item in list_all_data:    
-                print(f"{item['ID']} \t {item['Description']} \t\t {item['Amount']}")
-        except : 
-            print("Data not found")
+        if args.month :
+            list_all_data = [item for item in list_all_data if item ['Month'] == args.month]
+            for item in list_all_data:
+                print(f"{item['ID']} \t {item['Description']} \t\t {item['Amount']} \t\t {item['Month']}")
+        else :
+            try :
+                for item in list_all_data:    
+                    print(f"{item['ID']} \t {item['Description']} \t\t {item['Amount']} \t\t {item['Month']}")
+            except : 
+                print("Data not found")
         
     # Delete 1 of Listed Data
     elif args.notes == "delete":
